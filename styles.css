@@ -11,12 +11,7 @@
     padding-top: 100px;
 }
 
-.span {
-    background-color: brown;
-}
-
 .about{
-    margin-top: 00px;
     min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,6 +30,7 @@
     margin-bottom: 20px;
     line-height: 1.5;
     font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .btn-sitio {
@@ -45,7 +41,20 @@
     cursor: pointer;
     outline: inherit;
     border-radius: 12px;
-    padding: 10px;
-    margin-bottom: 50px;
-    border-color: brown;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    border-color: #ffae00;
+}
+
+.btn {
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.fab {
+    color: rgb(41, 97, 122);
+    margin-right: 20px;
+    font-size: 40px;
 }
