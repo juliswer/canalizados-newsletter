@@ -10,21 +10,21 @@
     <title>NewsLetter</title>
 </head>
 <body>
-    <header class="container header__container">
+    <header class="container header__container borders-container-top">
         <h2><img src="./assets/Group 1067.svg" alt=""></h2><br>
         
-        <img src="./assets/Group 1066.svg" alt="">
+        <img src="./assets/Group 1066.svg" alt="" class="img-header">
         <!-- <h4>La <span class="span">única</span><br> comunidad<br> hispana de <br>startups<i class="fas fa-arrow-circle-up"></i></h4> -->
     </header>
 
-    <main class="main">
+    <main class="container main">
         <figure class="main__img">
             <img src="./assets/Holding Phone Mockup@2x.png" alt="" class="main__picture">
         </figure>
         <p class="main__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima exercitationem quaerat harum rem quia, delectus odio hic itaque quae magni laudantium placeat commodi odit eveniet voluptatibus praesentium. Eveniet, tenetur culpa!<br> <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nulla quas tenetur unde. Illum quibusdam cum laboriosam.</p>
     </main>
 
-    <footer class="container header__container">
+    <footer class="container header__container borders-container-bottom">
         <button class="btn-sitio"><a href="#" class="btn">Ir al sitio</a></button>
         <br>
         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -33,22 +33,37 @@
     </footer>
 
     <style>
+        body {
+            background-color: #ccc;
+        }
         .container{
-            width: 90%;
+            width: 600px;
+            height: 200px;
             margin: 0 auto;
             overflow: hidden;
             padding: 80px 0;
             max-width: 1200px;
+            background-color: #fff;
+        }
+
+        .borders-container-top {
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
         }
     
         .header__container{
             text-align: center;
-            padding-top: 100px;
+            background-color: #fff;
+        }
+
+        .img-header {
+            height: 200px;
+            width: 200px;
         }
 
         .main{
-            height: 50vh;
-            width: 50vw;
+            height: 35.7vh;
+            width: 35.7vw;
             margin: 0 auto;
             min-height: 400px;
             display: grid;
@@ -58,6 +73,7 @@
         .main__img {
             margin-top: 30px;
             text-align: left;
+            background-color: #fff;
         }
 
         .main__picture{
@@ -95,6 +111,11 @@
             color: rgb(41, 97, 122);
             margin-right: 20px;
             font-size: 40px;
+        }
+
+        .borders-container-bottom {
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
         }
     </style>
 
