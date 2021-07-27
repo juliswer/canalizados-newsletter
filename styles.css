@@ -6,27 +6,27 @@
     max-width: 1200px;
 }
 
-.presentation__container{
+.header__container{
     text-align: center;
     padding-top: 100px;
 }
 
-.about{
+.main{
     min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.about__img--left {
+.main__img {
     margin-top: 30px;
     text-align: left;
 }
 
-.about__picture{
+.main__picture{
     max-width: 100%;
 }
 
-.about__paragraph{
+.main__paragraph{
     margin-bottom: 20px;
     line-height: 1.5;
     font-weight: 400;
